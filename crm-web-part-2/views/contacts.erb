@@ -1,0 +1,10 @@
+
+
+<h3 class=contact-header> There are 3 contacts</h3>
+
+
+
+<% @contact.each do |list| %>
+<h3 class=contacts><%= "#{list.first_name} " %> <%="#{list.last_name} " %> <%="(#{list.email})" %><br><a href="">Edit | Delete</a> </h3>
+
+<% end %>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title><%= @title %></title>
+  </head>
+  <body>
+    <header>
+      <h2>BItmaker CRM</h2>
+      <h1><a href="/home"> Home </a></h1>
+      <h1><a href="/contacts"> Contact </a></h1>
+      <h1><a href="/about"> About</a></h1>
+    </header>
+
+
+
+
+    <main>
+      <%= yield %>
+    </main>
+
+    <footer>
+
+   BItmaker CRM
+    </footer>
+  </body>
+</html>
