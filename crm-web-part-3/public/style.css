@@ -1,0 +1,59 @@
+h2{
+  font-size: 40px;
+  text-align: center;
+  background-color: Black;
+  color: white;
+  margin: 1px;
+  }
+h1{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  background: grey;
+  margin: 1px;
+  padding: 1;
+}
+
+h3{
+  font-size: 30px;
+  text-align: left;
+  background-color: pink;
+  color: white;
+  margin: 20px;
+
+}
+h3.contact-header{
+  font-size: 40px;
+  text-align: center;
+  background-color: pink;
+  color: white;
+  margin: 20px;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+h3.contacts{
+  font-size: 20px;
+  text-align: left;
+  background-color: #20f7e1;
+  /* background-size: 400px; */
+  padding:.75em .75em 1.5em 0;
+  color: white;
+  margin: 40px;
+}
+h3 a{
+  color: blue;
+}
+
+footer{
+  font-size: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding:.5em .5em .5em 0;
+}
+navigator{
+  text-align: center;
+}
