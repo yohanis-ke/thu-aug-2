@@ -1,3 +1,10 @@
 
 
-<h3 class=contacts> <%= "#{@contact.first_name} " %> <%="#{@contact.last_name} " %> <%="(#{@contact.email})" %><br><a href="">Edit | Delete</a> </h3>
+<% if @user_search %>
+<h3 class=contacts> <%= "#{@user_search.first_name} " %> <%="#{@user_search.last_name} " %> <%="(#{@user_search.email})" %><br><a href="">Edit | Delete</a> </h3>
+<% else %>
+<%puts%>
+NoMethodError at /contacts/mittens
+undefined method `first_name' for nil:NilClass
+NoMethodError at /contacts/mittens
+undefined method `first_name' for nil:NilClass

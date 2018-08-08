@@ -15,12 +15,6 @@ class Contact < ActiveRecord::Base
   def full_name
    puts "#{@first_name} #{@last_name}"
   end
-
-  def find_by(id)
-    @id=[]
-    @id=id
-   return @id
-  end
-
+  
 end
 Contact.auto_upgrade!

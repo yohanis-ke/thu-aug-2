@@ -21,9 +21,19 @@ get '/contacts' do
 end
 
 get '/contacts/:id' do
+   # @contact = Contact.all
   # params[:id] contains the id from the URL
-  @contact = Contact.find_by(params[:id])
+  @user_search = Contact.find_by(id: params[:id].to_i)
   erb :show_contact
+  # @contact.each do |list|
+  #   if list.id==search_id
+  #     @user_search=list
+  #   end
+  #   erb :show_contact
+  # end
+puts "NoMethodError at /contacts/mittens
+undefined method `first_name' for nil:NilClass"
+
 end
 
 after do
